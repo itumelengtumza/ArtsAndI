@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5.0dip"
+    card_view:cardElevation="2.0dip"
+    android:layout_margin="4dp">
+<LinearLayout
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="?colorPrimaryDark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize" />
+
+        <ScrollView
+            android:background="@drawable/app_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textStyle="bold" android:id="@+id/organizationLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Organization: " />
+                    <TextView android:textStyle="italic" android:id="@+id/organization" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Organization Text" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textStyle="bold" android:id="@+id/noticeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notice: " />
+                    <TextView android:textStyle="italic" android:id="@+id/notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notice Text" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textStyle="bold" android:id="@+id/deadlineLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Deadline : " />
+                    <TextView android:textStyle="italic" android:id="@+id/deadlineDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Deadline Date" />
+                    <TextView android:textStyle="italic" android:id="@+id/deadlineTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Deadline Time" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textStyle="bold" android:id="@+id/divisionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Divison: " />
+                    <TextView android:textStyle="italic" android:id="@+id/division" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Division Text" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textStyle="bold" android:id="@+id/contactLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contact: " />
+                    <TextView android:textStyle="italic" android:id="@+id/contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contact Text" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                    <TextView android:textStyle="bold" android:id="@+id/dateTextLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Posted On: " />
+                    <TextView android:textStyle="italic" android:id="@+id/dateText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date Text" />
+                    <TextView android:textStyle="italic" android:id="@+id/timeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Time Text" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textStyle="bold" android:id="@+id/senderEmailLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="By: " />
+                    <TextView android:textStyle="italic" android:id="@+id/senderEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sender Email " />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    <TextView android:textSize="10.0sp" android:textColor="@color/mainColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/artsMsg" />
+</LinearLayout>
+</android.support.v7.widget.CardView>

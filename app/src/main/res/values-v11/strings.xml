@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arts &amp; I</string>
+    <string name="hint_email">Email:</string>
+    <string name="hint_password">Password:</string>
+    <string name="hint_name">Full Name:</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up</string>
+    <string name="btn_link_to_login">Already Registered! Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Full name</string>
+    <string name="title_activity_simple_tabs">Simple Tabs</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
+    <string name="one">ONE</string>
+    <string name="artsMsg">Proudly Brought To You By Department of Arts &amp; Culture</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="task_started_msg">Task started!</string>
+    <string name="task_cancelled_msg">Task cancelled!</string>
+    <string name="task_complete_msg">Task complete!</string>
+    <string name="zero_percent">0%</string>
+    <string name="one_hundred_percent">100%</string>
+    <string name="task_progress_msg">Progress:</string>
+</resources>

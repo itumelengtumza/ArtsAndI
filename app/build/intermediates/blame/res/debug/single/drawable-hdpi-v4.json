@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listbg.xml",
+        "source": "E:\\Arts&I\\app\\src\\main\\res\\drawable-hdpi\\listbg.xml"
+    },
+    {
+        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customrow.xml",
+        "source": "E:\\Arts&I\\app\\src\\main\\res\\drawable-hdpi\\customrow.xml"
+    },
+    {
+        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\line_divider.xml",
+        "source": "E:\\Arts&I\\app\\src\\main\\res\\drawable-hdpi\\line_divider.xml"
+    },
+    {
+        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mainbtn.xml",
+        "source": "E:\\Arts&I\\app\\src\\main\\res\\drawable-hdpi\\mainbtn.xml"
+    }
+]

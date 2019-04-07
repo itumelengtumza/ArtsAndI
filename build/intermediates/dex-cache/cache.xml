@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\401e3c6867588ce92a67ac178405492ac58be9dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\classes_db37a40e1ce451ec66da9e10176613468d6b211c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\6166b12622e611cb7d0ebf97832bed5662dea9e7\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_a1526ea7745d189c3e3027f63a52c14d7bcda444.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\6166b12622e611cb7d0ebf97832bed5662dea9e7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\classes_48a159e49ded042e5b7cac529eb450165032e2c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.1_e8ff24b1f40952516dad704d25b15fad9a84b764.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Arts&amp;I\app\libs\httpmime-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\httpmime-4.3.6_dd68914f5afa9ce7882ee411989f47a610f0a452.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\6d9bc5046f43ce87f077b3ee1bb15bcefb0cdf41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\classes_1e7f68012912e7634a93653239ae9f1cf23ffd49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Arts&amp;I\app\libs\httpcore-4.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\httpcore-4.3.3_f0df9a423e0c67c3c497b9a2c56a8b6b90b37804.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\4e58aa4f479cb22dab0cbd8eaf10ab15dd9fee59\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\classes_eb287324d51ef6f1494f89f4d7c11b58b6bedd08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\7e016465d666e77f99c5d7583d7dcadd87f81057\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\classes_0fd712f5855f054da0dd01821f5a7a2dd988a4d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_6071caea41f3fb0b5484dbb774cf81608ade2d0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Arts&amp;I\app\libs\PhotoUtil.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caf49e92eae4ca2805d530a92cb4777c1ef53f53">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\PhotoUtil_f53a5026bd7e98ab2469f424311a50122166df70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\66eb92bbda752059e7a9d53df208c65697077b78\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\classes_9b08bb1f1624372bc7a2e898a80b12e461a9cb12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Arts&amp;I\app\libs\httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_e6a51b60ce33416c17cc4a48174dd4a06da17de6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TEMP.STUDENTS\.android\build-cache\82d8962c5e24ea8994e846113693be836b5e469f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\classes_36b178a85f31bc59d2527fa8c9b4199e6fa25101.jar" />
+    </item>
+
+</items>
