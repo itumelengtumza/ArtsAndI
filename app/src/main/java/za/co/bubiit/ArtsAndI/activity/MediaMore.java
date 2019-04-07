@@ -126,6 +126,7 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
                 public void onClick(View v) {
                     Log.i("MediaMore", "INSIDE onClick!!!"+mediaArray[0]);
                     MediaMore.this.layout.setVisibility(View.VISIBLE);
+                    Log.i("mediaArray[0] is ",""+mediaArray[0]);
                     MediaMore.this.mTaskFragment.start(mediaArray[0]);
                 }
             });
@@ -167,10 +168,10 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
         this.mProgressBar.setProgress(this.mProgressBar.getMax());
         this.mPercent.setText(getString(R.string.one_hundred_percent));
         Builder alertDialog = new Builder(this);
-        alertDialog.setTitle((CharSequence) "Download Complete");
-        alertDialog.setMessage((CharSequence) "Open Containing Folder?");
-        alertDialog.setPositiveButton((CharSequence) "YES", new C02494());
-        alertDialog.setNegativeButton((CharSequence) "NO", new C02505());
+        alertDialog.setTitle("Download Complete");
+        alertDialog.setMessage( "Open Containing Folder?");
+        alertDialog.setPositiveButton( "YES", new C02494());
+        alertDialog.setNegativeButton( "NO", new C02505());
         alertDialog.show();
     }
 

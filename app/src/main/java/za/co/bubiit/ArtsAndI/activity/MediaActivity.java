@@ -86,7 +86,6 @@ public class MediaActivity extends AppCompatActivity {
         this.recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         this.recyclerView.setHasFixedSize(true);
         this.recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        this.recyclerView.addItemDecoration(new DividerItemDecoration(this, 1));
         this.recyclerView.setItemAnimator(new DefaultItemAnimator());
         this.run = new C02451();
         runOnUiThread(this.run);

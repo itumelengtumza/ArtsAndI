@@ -74,6 +74,15 @@ public class NoticeFragment extends Fragment {
         }
     }
 
+    class C02713 implements View.OnClickListener {
+        C02713() {
+        }
+
+        public void onClick(View v) {
+            NoticeFragment.this.dialog.dismiss();
+        }
+    }
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.db = new SQLiteHandler(getActivity(), ServerConnect.notice);
@@ -145,6 +154,9 @@ public class NoticeFragment extends Fragment {
         Toolbar toolbar = (Toolbar) this.dialog.findViewById(R.id.toolbar);
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
         toolbar.setTitle("Notices");
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(new C02713());
     }
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);

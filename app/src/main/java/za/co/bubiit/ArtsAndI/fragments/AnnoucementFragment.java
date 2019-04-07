@@ -136,6 +136,9 @@ public class AnnoucementFragment extends Fragment {
         Toolbar toolbar = (Toolbar) this.dialog.findViewById(R.id.toolbar);
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
         toolbar.setTitle("Annoucements");
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(new C02713());
     }
 
     public void onSaveInstanceState(Bundle outState) {

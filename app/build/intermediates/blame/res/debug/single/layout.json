@@ -112,10 +112,6 @@
         "source": "C:\\Users\\TEMP.STUDENTS\\.android\\build-cache\\82d8962c5e24ea8994e846113693be836b5e469f\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_annoucements.xml",
-        "source": "E:\\Arts&I\\app\\src\\main\\res\\layout\\activity_annoucements.xml"
-    },
-    {
         "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\TEMP.STUDENTS\\.android\\build-cache\\82d8962c5e24ea8994e846113693be836b5e469f\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
@@ -192,12 +188,12 @@
         "source": "E:\\Arts&I\\app\\src\\main\\res\\layout\\slide_datetime_dialogfragment.xml"
     },
     {
-        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password_reset.xml",
-        "source": "E:\\Arts&I\\app\\src\\main\\res\\layout\\password_reset.xml"
-    },
-    {
         "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\TEMP.STUDENTS\\.android\\build-cache\\82d8962c5e24ea8994e846113693be836b5e469f\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password_reset.xml",
+        "source": "E:\\Arts&I\\app\\src\\main\\res\\layout\\password_reset.xml"
     },
     {
         "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_date.xml",
