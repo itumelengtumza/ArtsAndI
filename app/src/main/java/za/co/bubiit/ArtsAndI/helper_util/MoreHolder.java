@@ -5,6 +5,7 @@ public class MoreHolder {
     private static String[] event = null;
     private static String[] media = null;
     private static String[] notice = null;
+    private static String[] tourism = null;
 
     public void setEvent(String[] event) {
         this.event = event;
@@ -36,5 +37,13 @@ public class MoreHolder {
 
     public static String[] getMedia() {
         return media;
+    }
+
+    public void setTourism(String[] tourism) {
+        this.tourism = tourism;
+    }
+
+    public static String[] getTourism() {
+        return tourism;
     }
 }

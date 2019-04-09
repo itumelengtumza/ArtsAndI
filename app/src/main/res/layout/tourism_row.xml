@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false">
+
+<LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/title" android:textStyle="bold" android:textColor="@color/Pantone127C" android:id="@+id/organization" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="Orgazination Name" android:layout_weight="0.33" />
+    <TextView android:textColor="@color/Pantone127C" android:id="@+id/notice" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="Notice" android:layout_weight="0.33" />
+    <TextView android:textSize="@dimen/rating" android:textColor="@color/Pantone127C" android:id="@+id/deadlineDate" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Deadline" android:layout_weight="0.33" />
+</LinearLayout>
+</android.support.v7.widget.CardView>
