@@ -37,6 +37,7 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
     private Button cancelBtn;
     private ImageView downloadBtn;
     private boolean isConnected;
+    private boolean progressBarIsShowing;
     private LinearLayout layout;
     private TextView mPercent;
     private ProgressBar mProgressBar;
@@ -125,12 +126,15 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
             this.downloadBtn.setOnClickListener(new OnClickListener() {
                 public void onClick(View v) {
                     MediaMore.this.layout.setVisibility(View.VISIBLE);
+                    progressBarIsShowing = true;
                     MediaMore.this.mTaskFragment.start(mediaArray[0]);
                 }
             });
             this.cancelBtn.setOnClickListener(new C02483());
         }
         if (savedInstanceState != null) {
+            progressBarIsShowing = savedInstanceState.getBoolean("progressBarIsShowing");
+            if(progressBarIsShowing){MediaMore.this.layout.setVisibility(View.VISIBLE);}
             this.mProgressBar.setProgress(savedInstanceState.getInt(KEY_CURRENT_PROGRESS));
             this.mPercent.setText(savedInstanceState.getString(KEY_PERCENT_PROGRESS));
         }
@@ -144,11 +148,14 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
 
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
+        outState.putBoolean("progressBarIsShowing", progressBarIsShowing);
         outState.putInt(KEY_CURRENT_PROGRESS, this.mProgressBar.getProgress());
         outState.putString(KEY_PERCENT_PROGRESS, this.mPercent.getText().toString());
     }
 
     public void onPreExecute() {
+        this.cancelBtn.setVisibility(View.VISIBLE);
+
     }
 
     public void onProgressUpdate(int percent) {
@@ -165,6 +172,7 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
     public void onPostExecute() {
         this.mProgressBar.setProgress(this.mProgressBar.getMax());
         this.mPercent.setText(getString(R.string.one_hundred_percent));
+        this.cancelBtn.setVisibility(View.GONE);
         Builder alertDialog = new Builder(this);
         alertDialog.setTitle("Download Complete");
         alertDialog.setMessage( "Open Containing Folder?");

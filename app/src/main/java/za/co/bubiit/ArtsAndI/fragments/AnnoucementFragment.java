@@ -1,9 +1,7 @@
 package za.co.bubiit.ArtsAndI.fragments;
 
 import android.app.Dialog;
-import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -21,10 +19,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 import za.co.bubiit.ArtsAndI.R;
-import za.co.bubiit.ArtsAndI.activity.AnnoucementMore;
 import za.co.bubiit.ArtsAndI.adater.AnnoucementsAdapter;
 import za.co.bubiit.ArtsAndI.helper_util.DatabaseConnections;
-import za.co.bubiit.ArtsAndI.helper_util.DividerItemDecoration;
 import za.co.bubiit.ArtsAndI.helper_util.MoreHolder;
 import za.co.bubiit.ArtsAndI.helper_util.RecyclerTouchListener;
 import za.co.bubiit.ArtsAndI.helper_util.RecyclerTouchListener.ClickListener;
