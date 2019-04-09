@@ -1,4 +1,4 @@
-#Sun Apr 07 17:07:40 CAT 2019
+#Tue Apr 09 13:52:26 CAT 2019
 base.0=E\:\\Arts&I\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=E\:\\Arts&I\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

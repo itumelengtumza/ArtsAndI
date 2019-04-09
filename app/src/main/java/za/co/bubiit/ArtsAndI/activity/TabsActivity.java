@@ -41,7 +41,7 @@ public class TabsActivity extends AppCompatActivity {
         }
 
         public Fragment getItem(int position) {
-            return (Fragment) this.mFragmentList.get(position);
+            return this.mFragmentList.get(position);
         }
 
         public int getCount() {
@@ -54,13 +54,13 @@ public class TabsActivity extends AppCompatActivity {
         }
 
         public CharSequence getPageTitle(int position) {
-            return (CharSequence) this.mFragmentTitleList.get(position);
+            return this.mFragmentTitleList.get(position);
         }
     }
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView((int) R.layout.tabs);
+        setContentView(R.layout.tabs);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -78,7 +78,7 @@ public class TabsActivity extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case 16908332:
+            case R.id.home:
                 startActivity(new Intent(this, WelcomeActivity.class));
                 finish();
                 return true;
@@ -98,7 +98,7 @@ public class TabsActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(this.oneFragment, "EVENTS");
-        //adapter.addFragment(this.twoFragment, "TOURISM");
+        adapter.addFragment(this.twoFragment, "TOURISM");
         adapter.addFragment(this.threeFragment, "ANNOUNCEMENTS");
         adapter.addFragment(this.fourFragment, "NOTICES");
         viewPager.setAdapter(adapter);
