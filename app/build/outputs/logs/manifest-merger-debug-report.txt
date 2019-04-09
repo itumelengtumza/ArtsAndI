@@ -17,13 +17,13 @@ ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:2:1-62:12
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\401e3c6867588ce92a67ac178405492ac58be9dd\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\82d8962c5e24ea8994e846113693be836b5e469f\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\4e58aa4f479cb22dab0cbd8eaf10ab15dd9fee59\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\6166b12622e611cb7d0ebf97832bed5662dea9e7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\TEMP.STUDENTS\.android\build-cache\66eb92bbda752059e7a9d53df208c65697077b78\output\AndroidManifest.xml:3:5-72
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\6d9bc5046f43ce87f077b3ee1bb15bcefb0cdf41\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\TEMP.STUDENTS\.android\build-cache\7e016465d666e77f99c5d7583d7dcadd87f81057\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\bcfdbb8f2e54117baa270da33efc590b1f77318b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\df73bd8afc4fca5c4450531402152354c4505893\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\5c37396a70d25057eefbba239dff79daad2f9771\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\8cd70fcfd65eb082e55e4b7763287f42c29cb2bc\output\AndroidManifest.xml:20:5-43
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\359b210b2d32e762399e47ebfe62c3b44bf4176f\output\AndroidManifest.xml:3:5-72
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\d072fc11db5ef6b5ad93fbc4daa2d5ed161b8c10\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\4d56d2d85ba9b0e3ac20abeb1f0a516eea87d4e1\output\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
@@ -62,12 +62,12 @@ ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:17:5-75
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:17:22-72
 application
 ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:19:5-60:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\401e3c6867588ce92a67ac178405492ac58be9dd\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\82d8962c5e24ea8994e846113693be836b5e469f\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\6166b12622e611cb7d0ebf97832bed5662dea9e7\output\AndroidManifest.xml:22:5-20
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\TEMP.STUDENTS\.android\build-cache\66eb92bbda752059e7a9d53df208c65697077b78\output\AndroidManifest.xml:5:5-19
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\TEMP.STUDENTS\.android\build-cache\6d9bc5046f43ce87f077b3ee1bb15bcefb0cdf41\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\TEMP.STUDENTS\.android\build-cache\7e016465d666e77f99c5d7583d7dcadd87f81057\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\bcfdbb8f2e54117baa270da33efc590b1f77318b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\df73bd8afc4fca5c4450531402152354c4505893\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\8cd70fcfd65eb082e55e4b7763287f42c29cb2bc\output\AndroidManifest.xml:22:5-20
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\359b210b2d32e762399e47ebfe62c3b44bf4176f\output\AndroidManifest.xml:5:5-19
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\d072fc11db5ef6b5ad93fbc4daa2d5ed161b8c10\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\4d56d2d85ba9b0e3ac20abeb1f0a516eea87d4e1\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:23:9-41
 	android:allowBackup

@@ -125,8 +125,8 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
             this.downloadBtn.setOnClickListener(new OnClickListener() {
                 public void onClick(View v) {
                     Log.i("MediaMore", "INSIDE onClick!!!"+mediaArray[0]);
-                    MediaMore.this.layout.setVisibility(View.VISIBLE);
                     Log.i("mediaArray[0] is ",""+mediaArray[0]);
+                    MediaMore.this.layout.setVisibility(View.VISIBLE);
                     MediaMore.this.mTaskFragment.start(mediaArray[0]);
                 }
             });
