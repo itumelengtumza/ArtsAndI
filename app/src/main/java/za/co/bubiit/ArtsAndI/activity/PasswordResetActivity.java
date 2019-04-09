@@ -68,7 +68,7 @@ public class PasswordResetActivity extends AppCompatActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView((int) R.layout.password_reset);
+        setContentView(R.layout.password_reset);
         this.inputResetCode = (EditText) findViewById(R.id.resetCode);
         this.inputPassword = (EditText) findViewById(R.id.password);
         this.btnSubmit = (Button) findViewById(R.id.btnSubmit);
@@ -79,19 +79,6 @@ public class PasswordResetActivity extends AppCompatActivity {
         startCountdownTimer();
         this.inputResetCode.setOnFocusChangeListener(new C02511());
         this.btnSubmit.setOnClickListener(new C02522());
-        final View activityRootView = findViewById(R.id.scrollView);
-        final View footerView = findViewById(R.id.footer);
-        activityRootView.getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
-            public void onGlobalLayout() {
-                Rect r = new Rect();
-                activityRootView.getWindowVisibleDisplayFrame(r);
-                if (activityRootView.getRootView().getHeight() - (r.bottom - r.top) > 100) {
-                    footerView.setVisibility(View.GONE);
-                } else {
-                    footerView.setVisibility(View.VISIBLE);
-                }
-            }
-        });
     }
 
     private void startCountdownTimer() {
@@ -105,20 +92,5 @@ public class PasswordResetActivity extends AppCompatActivity {
                 PasswordResetActivity.this.startActivity(new Intent(PasswordResetActivity.this.getApplicationContext(), LoginActivity.class));
             }
         }.start();
-    }
-
-    private void showDialog() {
-        if (!this.pDialog.isShowing()) {
-            this.pDialog.setMessage("Sending...");
-            this.pDialog.setIndeterminate(true);
-            this.pDialog.setCancelable(false);
-            this.pDialog.show();
-        }
-    }
-
-    private void hideDialog() {
-        if (this.pDialog.isShowing()) {
-            this.pDialog.dismiss();
-        }
     }
 }
