@@ -99,7 +99,6 @@ public class TabsActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(this.oneFragment, "EVENTS");
         adapter.addFragment(this.twoFragment, "TOURISM");
-
         adapter.addFragment(this.threeFragment, "ANNOUNCEMENTS");
         adapter.addFragment(this.fourFragment, "NOTICES");
         viewPager.setAdapter(adapter);
