@@ -40,11 +40,8 @@
         <activity
             android:name="za.co.bubiit.ArtsAndI.activity.MediaMore"
             android:label="@string/app_name"
-            android:parentActivityName="za.co.bubiit.ArtsAndI.activity.TabsActivity" />
-        <activity
-            android:name="za.co.bubiit.ArtsAndI.activity.AnnoucementMore"
-            android:label="@string/app_name"
-            android:parentActivityName="za.co.bubiit.ArtsAndI.activity.TabsActivity" />
+            android:parentActivityName="za.co.bubiit.ArtsAndI.activity.TabsActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="za.co.bubiit.ArtsAndI.activity.MediaActivity"
             android:label="@string/app_name"

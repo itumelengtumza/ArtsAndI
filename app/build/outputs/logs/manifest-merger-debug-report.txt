@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
@@ -61,7 +61,7 @@ ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:17:22-72
 application
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:19:5-60:19
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:19:5-57:19
 MERGED from [com.android.support:design:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\bcfdbb8f2e54117baa270da33efc590b1f77318b\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\df73bd8afc4fca5c4450531402152354c4505893\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\8cd70fcfd65eb082e55e4b7763287f42c29cb2bc\output\AndroidManifest.xml:22:5-20
@@ -109,40 +109,34 @@ ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:36:9-39:91
 	android:name
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:37:13-71
 activity#za.co.bubiit.ArtsAndI.activity.MediaMore
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:40:9-43:88
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:40:9-44:51
+	android:screenOrientation
+		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:44:13-49
 	android:label
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:42:13-45
 	android:parentActivityName
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:43:13-85
 	android:name
 		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:41:13-68
-activity#za.co.bubiit.ArtsAndI.activity.AnnoucementMore
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:44:9-47:88
-	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:46:13-45
-	android:parentActivityName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:47:13-85
-	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:45:13-74
 activity#za.co.bubiit.ArtsAndI.activity.MediaActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:48:9-51:88
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:45:9-48:88
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:50:13-45
+		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:47:13-45
 	android:parentActivityName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:51:13-85
+		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:48:13-85
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:49:13-72
+		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:46:13-72
 activity#za.co.bubiit.ArtsAndI.activity.LoginActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:52:9-59:20
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:49:9-56:20
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:52:19-78
+		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:49:19-78
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:54:13-58:29
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:55:17-69
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:55:25-66
+		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:57:17-77
+ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:57:27-74
+		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:54:27-74

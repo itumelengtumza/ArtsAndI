@@ -35,8 +35,6 @@ public class TaskFragment extends Fragment {
         }
 
         protected Void doInBackground(Void... f) {
-            File file;
-            File file2;
             Exception e;
             String downloadFileName = this.f_url.replace(ServerConnect.mainUrl, "");
             try {
@@ -66,22 +64,20 @@ public class TaskFragment extends Fragment {
                             total += count;
                             publishProgress(new Integer[]{Integer.valueOf((total * 100) / lenghtOfFile)});
                             output.write(data, 0, count);
+                            if (isCancelled()) {
+                                break;
+                            }
                         }
                         output.flush();
                         output.close();
                         input.close();
-                        file = outputFile;
-                        file2 = apkStorage;
                     } catch (Exception e2) {
                         e = e2;
-                        file = outputFile;
-                        file2 = apkStorage;
                         Log.e("Error: ", e.getMessage());
                         return null;
                     }
                 } catch (Exception e3) {
                     e = e3;
-                    file2 = apkStorage;
                     Log.e("Error: ", e.getMessage());
                     return null;
                 }

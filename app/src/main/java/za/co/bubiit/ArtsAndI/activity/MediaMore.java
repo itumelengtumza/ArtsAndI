@@ -1,5 +1,6 @@
 package za.co.bubiit.ArtsAndI.activity;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -31,13 +32,11 @@ import za.co.bubiit.ArtsAndI.helper_util.MoreHolder;
 import za.co.bubiit.ArtsAndI.helper_util.ServerConnect;
 
 public class MediaMore extends FragmentActivity implements TaskCallbacks {
-    private static final String KEY_CURRENT_PROGRESS = "current_progress";
-    private static final String KEY_PERCENT_PROGRESS = "percent_progress";
     private static final String TAG_TASK_FRAGMENT = "task_fragment";
     private Button cancelBtn;
+    private Button openFolderBtn;
     private ImageView downloadBtn;
     private boolean isConnected;
-    private boolean progressBarIsShowing;
     private LinearLayout layout;
     private TextView mPercent;
     private ProgressBar mProgressBar;
@@ -49,6 +48,7 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
     private ImageView playBtn;
     private TextView postDate;
     private NetworkImageView thumbNail;
+    private ProgressDialog pDialog;
 
     /* renamed from: za.co.bubiit.ArtsAndI.activity.MediaMore$3 */
     class C02483 implements OnClickListener {
@@ -57,6 +57,7 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
 
         public void onClick(View v) {
             MediaMore.this.layout.setVisibility(View.GONE);
+            showDialog();
             MediaMore.this.mTaskFragment.cancel();
         }
     }
@@ -77,6 +78,7 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
         }
 
         public void onClick(DialogInterface dialog, int which) {
+
             dialog.cancel();
         }
     }
@@ -107,6 +109,9 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
         this.mProgressBar = (ProgressBar) findViewById(R.id.progress_horizontal);
         this.mPercent = (TextView) findViewById(R.id.percent_progress);
         this.cancelBtn = (Button) findViewById(R.id.cancelBtn);
+        this.openFolderBtn = (Button) findViewById(R.id.openFolderBtn);
+        openFolderBtn.setVisibility(View.GONE);
+        this.pDialog = new ProgressDialog(this);
         NetworkInfo activeNetwork = ((ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
         if (activeNetwork == null || !activeNetwork.isConnectedOrConnecting()) {
             z = false;
@@ -126,17 +131,10 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
             this.downloadBtn.setOnClickListener(new OnClickListener() {
                 public void onClick(View v) {
                     MediaMore.this.layout.setVisibility(View.VISIBLE);
-                    progressBarIsShowing = true;
                     MediaMore.this.mTaskFragment.start(mediaArray[0]);
                 }
             });
             this.cancelBtn.setOnClickListener(new C02483());
-        }
-        if (savedInstanceState != null) {
-            progressBarIsShowing = savedInstanceState.getBoolean("progressBarIsShowing");
-            if(progressBarIsShowing){MediaMore.this.layout.setVisibility(View.VISIBLE);}
-            this.mProgressBar.setProgress(savedInstanceState.getInt(KEY_CURRENT_PROGRESS));
-            this.mPercent.setText(savedInstanceState.getString(KEY_PERCENT_PROGRESS));
         }
         FragmentManager fm = getSupportFragmentManager();
         this.mTaskFragment = (TaskFragment) fm.findFragmentByTag(TAG_TASK_FRAGMENT);
@@ -144,17 +142,17 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
             this.mTaskFragment = new TaskFragment();
             fm.beginTransaction().add(this.mTaskFragment, TAG_TASK_FRAGMENT).commit();
         }
-    }
 
-    public void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putBoolean("progressBarIsShowing", progressBarIsShowing);
-        outState.putInt(KEY_CURRENT_PROGRESS, this.mProgressBar.getProgress());
-        outState.putString(KEY_PERCENT_PROGRESS, this.mPercent.getText().toString());
+        openFolderBtn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaMore.this.openDownloadedFolder();
+            }
+        });
     }
-
     public void onPreExecute() {
         this.cancelBtn.setVisibility(View.VISIBLE);
+        openFolderBtn.setVisibility(View.GONE);
 
     }
 
@@ -166,6 +164,7 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
     public void onCancelled() {
         this.mProgressBar.setProgress(0);
         this.mPercent.setText(getString(R.string.zero_percent));
+        hideDialog();
         Toast.makeText(this, R.string.task_cancelled_msg, Toast.LENGTH_LONG).show();
     }
 
@@ -173,7 +172,9 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
         this.mProgressBar.setProgress(this.mProgressBar.getMax());
         this.mPercent.setText(getString(R.string.one_hundred_percent));
         this.cancelBtn.setVisibility(View.GONE);
+        openFolderBtn.setVisibility(View.VISIBLE);
         Builder alertDialog = new Builder(this);
+        alertDialog.setCancelable(false);
         alertDialog.setTitle("Download Complete");
         alertDialog.setMessage( "Open Containing Folder?");
         alertDialog.setPositiveButton( "YES", new C02494());
@@ -189,5 +190,20 @@ public class MediaMore extends FragmentActivity implements TaskCallbacks {
             return;
         }
         Toast.makeText(this, "Right now there is no directory. Please download some file first.", Toast.LENGTH_SHORT).show();
+    }
+
+    private void showDialog() {
+        if (!this.pDialog.isShowing()) {
+            this.pDialog.setMessage("Cancelling...");
+            this.pDialog.setIndeterminate(true);
+            this.pDialog.setCancelable(false);
+            this.pDialog.show();
+        }
+    }
+
+    private void hideDialog() {
+        if (this.pDialog.isShowing()) {
+            this.pDialog.dismiss();
+        }
     }
 }

@@ -24,4 +24,5 @@
     <string name="zero_percent">0%</string>
     <string name="one_hundred_percent">100%</string>
     <string name="task_progress_msg">Progress:</string>
+    <string name="open_folder">Open Folder:</string>
 </resources>

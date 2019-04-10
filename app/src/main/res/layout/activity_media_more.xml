@@ -20,11 +20,12 @@
                     <ProgressBar android:layout_gravity="center" android:id="@+id/progress_horizontal" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="213" style="?android:progressBarStyleHorizontal" />
                     <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@+id/percent_progress" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_percent" />
                     <Button android:textColor="@color/Pantone127C" android:layout_gravity="center" android:id="@+id/cancelBtn" android:background="@drawable/mainbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+                    <Button android:textColor="@color/Pantone127C" android:layout_gravity="center" android:id="@+id/openFolderBtn" android:background="@drawable/mainbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_folder" />
                 </LinearLayout>
                 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
                     android:paddingBottom="10dip">
                     <TextView android:textColor="@color/white" android:textSize="@dimen/title" android:textStyle="italic" android:id="@+id/mediaDetails" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Details" />
-                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="10.0dip">
                         <TextView android:textColor="@color/white" android:textSize="@dimen/title" android:textStyle="bold" android:id="@+id/mediaNameLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Media Name: " />
                         <TextView android:textColor="@color/white" android:textSize="@dimen/title" android:textStyle="italic" android:id="@+id/mediaName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Media Name" />
                     </LinearLayout>
@@ -36,20 +37,20 @@
                         <TextView android:textColor="@color/white" android:textSize="@dimen/rating" android:textStyle="bold" android:id="@+id/mediaSizeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Media Size: " />
                         <TextView android:textColor="@color/white" android:textSize="@dimen/rating" android:textStyle="italic" android:id="@+id/mediaSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Media Size" />
                     </LinearLayout>
-                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="10.0dip">
                         <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.5">
-                            <TextView android:textColor="@color/white" android:textSize="@dimen/rating" android:textStyle="bold" android:id="@+id/playBtnLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Stream: " />
+                            <TextView android:textColor="@color/white" android:textSize="@dimen/rating" android:textStyle="bold" android:id="@+id/playBtnLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="5.0dip" android:text="Stream: " />
                             <ImageView android:id="@+id/playBtn" android:background="@android:drawable/ic_media_play" android:layout_width="wrap_content" android:layout_height="wrap_content" />
                         </LinearLayout>
-                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_weight="0.5">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="5.0dip" android:layout_weight="0.5">
                             <TextView android:textColor="@color/white" android:textSize="@dimen/rating" android:textStyle="bold" android:id="@+id/downloadBtnLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Download: " />
                             <ImageView android:id="@+id/downloadBtn" android:background="@android:drawable/stat_sys_download" android:layout_width="wrap_content" android:layout_height="wrap_content" />
                         </LinearLayout>
                     </LinearLayout>
-                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingTop="10.0dip">
                         <TextView android:textColor="@color/white" android:textStyle="bold" android:id="@+id/postDateLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Posted On: " />
                         <TextView android:textColor="@color/white" android:textStyle="italic" android:id="@+id/postDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date Text" />
-                        <TextView android:textColor="@color/white" android:textStyle="italic" android:id="@+id/postTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Time Text" />
+                        <TextView android:textColor="@color/white" android:textStyle="italic" android:id="@+id/postTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5.0dip" android:text="Time Text" />
                     </LinearLayout>
                 </LinearLayout>
                 <TextView android:textSize="10.0sp" android:textColor="@color/mainColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/artsMsg" />
