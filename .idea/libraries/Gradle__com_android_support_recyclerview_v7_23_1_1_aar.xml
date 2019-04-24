@@ -1,17 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:recyclerview-v7:23.1.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.android/build-cache/5c37396a70d25057eefbba239dff79daad2f9771/output/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/cd521d381eb37fad2ba8adf217babdbabb99e43d/output/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/5c37396a70d25057eefbba239dff79daad2f9771/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/5c37396a70d25057eefbba239dff79daad2f9771/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/cd521d381eb37fad2ba8adf217babdbabb99e43d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/cd521d381eb37fad2ba8adf217babdbabb99e43d/output/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

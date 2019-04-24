@@ -1,14 +1,14 @@
 [
     {
-        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\login.xml",
-        "source": "E:\\Arts&I\\app\\src\\main\\res\\layout-land\\login.xml"
+        "merged": "C:\\Users\\9906774w\\Documents\\ArtsAndI\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\events_row.xml",
+        "source": "C:\\Users\\9906774w\\Documents\\ArtsAndI\\app\\src\\main\\res\\layout-land\\events_row.xml"
     },
     {
-        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_event_more.xml",
-        "source": "E:\\Arts&I\\app\\src\\main\\res\\layout-land\\activity_event_more.xml"
+        "merged": "C:\\Users\\9906774w\\Documents\\ArtsAndI\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_event_more.xml",
+        "source": "C:\\Users\\9906774w\\Documents\\ArtsAndI\\app\\src\\main\\res\\layout-land\\activity_event_more.xml"
     },
     {
-        "merged": "E:\\Arts&I\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\events_row.xml",
-        "source": "E:\\Arts&I\\app\\src\\main\\res\\layout-land\\events_row.xml"
+        "merged": "C:\\Users\\9906774w\\Documents\\ArtsAndI\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\login.xml",
+        "source": "C:\\Users\\9906774w\\Documents\\ArtsAndI\\app\\src\\main\\res\\layout-land\\login.xml"
     }
 ]

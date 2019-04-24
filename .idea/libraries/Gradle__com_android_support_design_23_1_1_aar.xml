@@ -1,17 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:design:23.1.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.android/build-cache/bcfdbb8f2e54117baa270da33efc590b1f77318b/output/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/0ad2ad86904753541ea5cd6c2ce02dd0d61ff7da/output/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/bcfdbb8f2e54117baa270da33efc590b1f77318b/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/bcfdbb8f2e54117baa270da33efc590b1f77318b/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/0ad2ad86904753541ea5cd6c2ce02dd0d61ff7da/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/0ad2ad86904753541ea5cd6c2ce02dd0d61ff7da/output/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/design/23.1.1/design-23.1.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/design/23.1.1/design-23.1.1-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

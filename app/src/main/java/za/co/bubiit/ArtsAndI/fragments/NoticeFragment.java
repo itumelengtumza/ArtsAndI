@@ -17,7 +17,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import za.co.bubiit.ArtsAndI.R;
 import za.co.bubiit.ArtsAndI.adater.Notices0Adapter;
@@ -29,6 +32,8 @@ import za.co.bubiit.ArtsAndI.helper_util.RecyclerTouchListener.ClickListener;
 import za.co.bubiit.ArtsAndI.helper_util.SQLiteHandler;
 import za.co.bubiit.ArtsAndI.helper_util.ServerConnect;
 import za.co.bubiit.ArtsAndI.helper_util.SessionManager;
+import java.text.DateFormat;
+import java.util.Locale;
 
 public class NoticeFragment extends Fragment {
     private static final String TAG = NoticeFragment.class.getSimpleName();
@@ -108,10 +113,13 @@ public class NoticeFragment extends Fragment {
         this.recyclerView.setHasFixedSize(true);
         this.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         this.recyclerView.setItemAnimator(new DefaultItemAnimator());
-        this.dbConn.retrieveFromDB(ServerConnect.event, -1);
+
+        // check for internet and run
+
+        /*this.dbConn.retrieveFromDB(ServerConnect.event, -1);
         this.dbConn.retrieveFromDB(ServerConnect.notice, -1);
         this.dbConn.retrieveFromDB(ServerConnect.annoucement, -1);
-        this.dbConn.retrieveFromDB(ServerConnect.media, -1);
+        this.dbConn.retrieveFromDB(ServerConnect.media, -1);*/
         this.run = new C02721();
         getActivity().runOnUiThread(this.run);
         this.recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getContext(), this.recyclerView, new C03792()));
@@ -141,12 +149,20 @@ public class NoticeFragment extends Fragment {
         senderEmail.setText(noticeArray[0]);
         organization.setText(noticeArray[1]);
         notice.setText(noticeArray[2]);
-        String[] deadlineArray = noticeArray[3].split(" ");
+
+        DateFormat dateFormat = new SimpleDateFormat("dd MMM yy HH:mm", Locale.ENGLISH);
+        String strDate = dateFormat.format(noticeArray[3]);
+        String[] deadlineArray = strDate.split(" ");
+
         deadlineDate.setText(deadlineArray[0] + " " + deadlineArray[1] + " '" + deadlineArray[2]);
         deadlineTime.setText(deadlineArray[3]);
+
         division.setText(noticeArray[4]);
         contact.setText(noticeArray[5]);
-        String[] postdateArray = noticeArray[6].split(" ");
+
+        String strDate1 = dateFormat.format(noticeArray[6]);
+        String[] postdateArray = strDate1.split(" ");
+
         dateSent.setText(postdateArray[0] + " " + postdateArray[1] + " '" + postdateArray[2]);
         timeSent.setText(postdateArray[3]);
         this.dialog.setContentView(view);

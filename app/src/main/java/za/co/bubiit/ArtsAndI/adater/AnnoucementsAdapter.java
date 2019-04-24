@@ -71,8 +71,9 @@ public class AnnoucementsAdapter extends Adapter<AnnoucementsAdapter.MyViewHolde
         }
 
         holder.annoucementTittle.setText(annoucementArray[1]);
-        String[] postDateArray = annoucementArray[3].split(" ");
-        holder.postDate.setText(postDateArray[0] + " " + postDateArray[1] + " '" + postDateArray[2]);
+        holder.postDate.setText(annoucementArray[3]);
+        /*String[] postDateArray = annoucementArray[3].split(" ");
+        holder.postDate.setText(postDateArray[0] + " " + postDateArray[1] + " '" + postDateArray[2]);*/
     }
 
     public int getItemCount() {

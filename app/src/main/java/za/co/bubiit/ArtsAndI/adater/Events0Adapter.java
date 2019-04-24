@@ -77,8 +77,11 @@ public class Events0Adapter extends Adapter<Events0Adapter.MyViewHolder> {
         }
         holder.event.setText(eventArray[2]);
         holder.county.setText(eventArray[6]);
+        holder.date.setText(eventArray[3] + "->" + eventArray[4]);
+        /*
         String[] startdateArray = eventArray[3].split(" ");
         String[] enddateArray = eventArray[4].split(" ");
+
         if (!startdateArray[0].equals(enddateArray[0]) && startdateArray[1].equals(enddateArray[1]) && startdateArray[2].equals(enddateArray[2])) {
             holder.date.setText(startdateArray[0] + "-" + enddateArray[0] + " " + startdateArray[1] + " '" + startdateArray[2]);
         } else if (startdateArray[0].equals(enddateArray[0]) && startdateArray[1].equals(enddateArray[1]) && startdateArray[2].equals(enddateArray[2])) {
@@ -86,6 +89,7 @@ public class Events0Adapter extends Adapter<Events0Adapter.MyViewHolder> {
         } else {
             holder.date.setText(startdateArray[0] + " " + startdateArray[1] + " '" + startdateArray[2] + " - " + enddateArray[0] + " " + enddateArray[1] + " '" + enddateArray[2]);
         }
+        */
         /*if (this.selectedPos == position) {
             holder.itemView.setBackgroundResource(R.drawable.listbgpres);
         } else {

@@ -59,11 +59,13 @@ public class LoginActivity extends AppCompatActivity {
                 Toast.makeText(LoginActivity.this.getApplicationContext(), "Email format is wrong!", Toast.LENGTH_LONG).show();
             } else if (LoginActivity.this.inputPassword.getVisibility() == View.VISIBLE) {
                 LoginActivity.this.dbConn.insertIntoDB(ServerConnect.login, new String[]{LoginActivity.this.email, password}, -1);
-                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.user, -1);
-                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.notice, -1);
-                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.event, -1);
-                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.annoucement, -1);
-                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.media, -1);
+                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.user, "users");
+                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.notice, "notices");
+                /*
+                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.event, "events");
+                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.annoucement, "annoucements");
+                LoginActivity.this.dbConn.retrieveFromDB(ServerConnect.media, "media");*/
+
             } else {
                 LoginActivity.this.dbConn.insertIntoDB(ServerConnect.passwordResetRequest, new String[]{LoginActivity.this.email}, -1);
             }

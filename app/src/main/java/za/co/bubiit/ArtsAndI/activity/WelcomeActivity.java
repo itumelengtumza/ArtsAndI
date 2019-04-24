@@ -91,5 +91,6 @@ public class WelcomeActivity extends AppCompatActivity {
 
     public void onBackPressed() {
         finish();
+        exit(0);
     }
 }

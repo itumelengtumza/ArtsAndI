@@ -3,39 +3,129 @@
 
     <item
         is-multidex="false"
-        jar="E:\Arts&amp;I\app\libs\PhotoUtil.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="caf49e92eae4ca2805d530a92cb4777c1ef53f53">
-        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\PhotoUtil_f53a5026bd7e98ab2469f424311a50122166df70.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\Arts&amp;I\app\libs\httpmime-4.3.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
-        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\httpmime-4.3.6_dd68914f5afa9ce7882ee411989f47a610f0a452.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\Arts&amp;I\app\libs\httpcore-4.3.3.jar"
+        jar="C:\Users\9906774w\Documents\ArtsAndI\app\libs\httpcore-4.3.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
-        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\httpcore-4.3.3_f0df9a423e0c67c3c497b9a2c56a8b6b90b37804.jar" />
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\httpcore-4.3.3_96122e75190328649ec4cd344dd92f6fb9bae368.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\Arts&amp;I\app\libs\httpclient-4.3.6.jar"
+        jar="C:\Users\9906774w\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\23.1.1\8d680ba5a623724d1fb0e81c36a790f023a6cede\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_78d2d01912e4803db9837245113840bb6611c837.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\2179348c85aa953a0c1ce9350b0ebddae7f859fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\classes_d3725ee9b7fe1c962b2afa3cbeb10034b3a6e2f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\b9de9304d27f03f6663fb607358a7bca57287026\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\classes_b925ccdc49365a212cd3e96b20ec1ca77274a6cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\Documents\ArtsAndI\app\libs\PhotoUtil.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caf49e92eae4ca2805d530a92cb4777c1ef53f53">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\PhotoUtil_e13082dbc4b9d7ae92f521879531cca1a4b8be4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\0ad2ad86904753541ea5cd6c2ce02dd0d61ff7da\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\classes_03fe7ff1592d57bec17469c63ed7675e6bdb1f22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\Documents\ArtsAndI\app\libs\httpmime-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\httpmime-4.3.6_c09ecba07a4e3cc0c2692b3ca0867654850e016b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\14d65d55769eb99f1bfcca079221bb8bdc715f77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\classes_0ca82adc5bae6805764501040236fac04e54bf87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\Documents\ArtsAndI\app\libs\httpclient-4.3.6.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
-        <dex dex="E:\Arts&amp;I\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_e6a51b60ce33416c17cc4a48174dd4a06da17de6.jar" />
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_6dac432d4b2f6407b641635ef69c0fe09a083974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\a86bdb8151dcf5725d1663588311c1e1568f4f56\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\classes_b01f0f5a40a3a54f995310e03b7c73e7c3f7bb5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\9f42b093e744e1cfa07a598bc1e72d292461d1d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\classes_1e0a48487653ae9243f1c904035bcd83b846d70c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\b9de9304d27f03f6663fb607358a7bca57287026\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_b528e70114686feb1dae54434a2707f9350298b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.1_a1139ab5f32d36b3964c3cb50b9ab3fe2c76b993.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\9906774w\.android\build-cache\cd521d381eb37fad2ba8adf217babdbabb99e43d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\9906774w\Documents\ArtsAndI\app\build\intermediates\pre-dexed\debug\classes_e8e403e969e74b75bbf24fa9bc040ecbb20d4fb0.jar" />
     </item>
 
 </items>

@@ -7,7 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.List;
+import java.util.Locale;
+
 import za.co.bubiit.ArtsAndI.R;
 
 public class Notices0Adapter extends Adapter<Notices0Adapter.MyViewHolder> {
@@ -49,7 +54,11 @@ public class Notices0Adapter extends Adapter<Notices0Adapter.MyViewHolder> {
         String[] noticeArray = (String[]) this.noticesList.get(position);
         holder.organization.setText(noticeArray[1]);
         holder.notice.setText(noticeArray[2]);
-        String[] deadlineArray = noticeArray[3].split(" ");
+
+        DateFormat dateFormat = new SimpleDateFormat("dd MMM yy", Locale.ENGLISH);
+        String strDate = dateFormat.format(noticeArray[3]);
+        String[] deadlineArray = strDate.split(" ");
+
         holder.deadlineDate.setText(deadlineArray[0] + " " + deadlineArray[1] + " '" + deadlineArray[2]);
     }
 

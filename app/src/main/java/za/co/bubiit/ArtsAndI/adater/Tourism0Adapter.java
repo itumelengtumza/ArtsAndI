@@ -51,8 +51,9 @@ public class Tourism0Adapter extends Adapter<Tourism0Adapter.MyViewHolder> {
         String[] tourismArray = (String[]) this.tourismList.get(position);
         holder.organization.setText(tourismArray[1]);
         holder.notice.setText(tourismArray[2]);
-        String[] deadlineArray = tourismArray[3].split(" ");
-        holder.deadlineDate.setText(deadlineArray[0] + " " + deadlineArray[1] + " '" + deadlineArray[2]);
+        holder.deadlineDate.setText(tourismArray[3]);
+        //String[] deadlineArray = tourismArray[3].split(" ");
+        //holder.deadlineDate.setText(deadlineArray[0] + " " + deadlineArray[1] + " '" + deadlineArray[2]);
     }
 
     public int getItemCount() {

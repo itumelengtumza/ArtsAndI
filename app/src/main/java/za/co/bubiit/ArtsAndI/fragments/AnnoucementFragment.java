@@ -101,10 +101,13 @@ public class AnnoucementFragment extends Fragment {
         this.recyclerView.setHasFixedSize(true);
         this.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         this.recyclerView.setItemAnimator(new DefaultItemAnimator());
-        this.dbConn.retrieveFromDB(ServerConnect.event, -1);
+
+        // check for internet and run
+
+        /*this.dbConn.retrieveFromDB(ServerConnect.event, -1);
         this.dbConn.retrieveFromDB(ServerConnect.notice, -1);
         this.dbConn.retrieveFromDB(ServerConnect.annoucement, -1);
-        this.dbConn.retrieveFromDB(ServerConnect.media, -1);
+        this.dbConn.retrieveFromDB(ServerConnect.media, -1);*/
         this.run = new C02691();
         getActivity().runOnUiThread(this.run);
         this.recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getContext(), this.recyclerView, new C03772()));

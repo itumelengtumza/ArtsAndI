@@ -35,12 +35,8 @@ public class SQLiteHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public void addToSQLiteDB(String[] B, int n) {
+    public void addToSQLiteDB(ContentValues values) {
         SQLiteDatabase db = getWritableDatabase();
-        ContentValues values = new ContentValues();
-        for (int i = 0; i < n; i++) {
-            values.put(this.f16A[i + 4], B[i]);
-        }
         long id = db.insert(this.f16A[3], null, values);
         db.close();
         Log.d(TAG, "New " + this.f16A[3] + " item inserted into sqlite: " + id);
@@ -55,7 +51,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
         if (cursor.getCount() > 0) {
             while (!cursor.isAfterLast()) {
                 String[] temp = new String[cursor.getColumnCount()];
-                for (int i = 0; i < cursor.getColumnCount(); i++) {
+                for (int i = 1; i < cursor.getColumnCount(); i++) {
                     temp[i] = cursor.getString(i);
                 }
                 list.add(temp);

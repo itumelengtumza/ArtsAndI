@@ -2,6 +2,7 @@ package za.co.bubiit.ArtsAndI.helper_util;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
@@ -123,23 +124,25 @@ public class DatabaseConnections {
         }, "send_req");
     }
 
-    public void retrieveFromDB(final String[] A, int i) {
-        AppController.getInstance().addToRequestQueue(new StringRequest(1, A[1], new Listener<String>() {
+    public void retrieveFromDB(final String[] A, final String table_name) {
+        AppController.getInstance().addToRequestQueue(new StringRequest(1, ServerConnect.URL_PUBLISHER, new Listener<String>() {
             public void onResponse(String response) {
                 DatabaseConnections.this.db = new SQLiteHandler(DatabaseConnections.this.context.getApplicationContext(), A);
                 DatabaseConnections.this.TAG = DatabaseConnections.this.TAG + " retrieveFromDB: ";
                 Log.d(DatabaseConnections.this.TAG, response);
                 try {
-                    JSONArray myArray = new JSONArray(response);
+                    JSONObject jObj = new JSONObject(response);
+                    JSONArray myArray = jObj.getJSONArray("table_data");
                     DatabaseConnections.this.db.deleteSQLiteData();
                     for (int j = 0; j < myArray.length(); j++) {
-                        JSONObject jObj = myArray.getJSONObject(j);
-                        String[] temp = new String[jObj.length()];
-                        Log.i(DatabaseConnections.this.TAG, "jObj length is : " + jObj.length());
-                        for (int k = 0; k < jObj.length(); k++) {
-                            temp[k] = jObj.getString(A[k + 4]);
+                        JSONObject jObj1 = myArray.getJSONObject(j);
+
+                        Log.i(DatabaseConnections.this.TAG, "jObj1 length is : " + jObj1.length());
+                        ContentValues values = new ContentValues();
+                        for (int k = 0; k < jObj1.length(); k++) {
+                            values.put(A[k + 4], jObj1.getString(A[k + 4]));
                         }
-                        DatabaseConnections.this.db.addToSQLiteDB(temp, jObj.length());
+                        DatabaseConnections.this.db.addToSQLiteDB(values);
                     }
                     Log.i(DatabaseConnections.this.TAG, "Service INSIDE StringRequest!!!");
                 } catch (JSONException e) {
@@ -147,6 +150,14 @@ public class DatabaseConnections {
                     Log.i(DatabaseConnections.this.TAG, "Json error: " + e.getMessage());
                 }
             }
-        }, new C03835()));
+        }, new C03835()) {
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap();
+
+                params.put("table_name", table_name);
+
+                return params;
+            }
+        }, "send_req");
     }
 }

@@ -1,142 +1,142 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\bcfdbb8f2e54117baa270da33efc590b1f77318b\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\df73bd8afc4fca5c4450531402152354c4505893\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\5c37396a70d25057eefbba239dff79daad2f9771\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\8cd70fcfd65eb082e55e4b7763287f42c29cb2bc\output\AndroidManifest.xml:20:5-43
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\359b210b2d32e762399e47ebfe62c3b44bf4176f\output\AndroidManifest.xml:3:5-72
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\d072fc11db5ef6b5ad93fbc4daa2d5ed161b8c10\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\4d56d2d85ba9b0e3ac20abeb1f0a516eea87d4e1\output\AndroidManifest.xml:5:5-7:41
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.1.1] C:\Users\9906774w\.android\build-cache\0ad2ad86904753541ea5cd6c2ce02dd0d61ff7da\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\9906774w\.android\build-cache\a86bdb8151dcf5725d1663588311c1e1568f4f56\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\9906774w\.android\build-cache\cd521d381eb37fad2ba8adf217babdbabb99e43d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\9906774w\.android\build-cache\b9de9304d27f03f6663fb607358a7bca57287026\output\AndroidManifest.xml:20:5-43
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\9906774w\.android\build-cache\14d65d55769eb99f1bfcca079221bb8bdc715f77\output\AndroidManifest.xml:3:5-72
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\9906774w\.android\build-cache\9f42b093e744e1cfa07a598bc1e72d292461d1d6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\9906774w\.android\build-cache\2179348c85aa953a0c1ce9350b0ebddae7f859fa\output\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Arts&I\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:12:5-79
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:13:5-80
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:13:22-77
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:13:22-77
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:14:5-76
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:14:22-73
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:14:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:15:5-76
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:15:22-73
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:15:22-73
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:16:5-81
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:16:22-78
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:16:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:17:5-75
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:17:22-72
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:17:22-72
 application
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:19:5-57:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\bcfdbb8f2e54117baa270da33efc590b1f77318b\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\df73bd8afc4fca5c4450531402152354c4505893\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\8cd70fcfd65eb082e55e4b7763287f42c29cb2bc\output\AndroidManifest.xml:22:5-20
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\359b210b2d32e762399e47ebfe62c3b44bf4176f\output\AndroidManifest.xml:5:5-19
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\d072fc11db5ef6b5ad93fbc4daa2d5ed161b8c10\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\User.DESKTOP-BKOPV5U\.android\build-cache\4d56d2d85ba9b0e3ac20abeb1f0a516eea87d4e1\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:19:5-57:19
+MERGED from [com.android.support:design:23.1.1] C:\Users\9906774w\.android\build-cache\0ad2ad86904753541ea5cd6c2ce02dd0d61ff7da\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\9906774w\.android\build-cache\a86bdb8151dcf5725d1663588311c1e1568f4f56\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\9906774w\.android\build-cache\b9de9304d27f03f6663fb607358a7bca57287026\output\AndroidManifest.xml:22:5-20
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\9906774w\.android\build-cache\14d65d55769eb99f1bfcca079221bb8bdc715f77\output\AndroidManifest.xml:5:5-19
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\9906774w\.android\build-cache\9f42b093e744e1cfa07a598bc1e72d292461d1d6\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\9906774w\.android\build-cache\2179348c85aa953a0c1ce9350b0ebddae7f859fa\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:23:9-41
 	android:allowBackup
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:21:9-35
 	android:icon
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:22:9-45
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:22:9-45
 	android:theme
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:24:9-40
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:24:9-40
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:20:9-71
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:20:9-71
 activity#za.co.bubiit.ArtsAndI.activity.PasswordResetActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:25:9-28:88
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:25:9-28:88
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:26:13-45
 	android:parentActivityName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:28:13-86
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:28:13-86
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:27:13-80
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:27:13-80
 activity#za.co.bubiit.ArtsAndI.activity.RegisterActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:29:9-31:48
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:29:9-31:48
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:31:13-45
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:30:13-75
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:30:13-75
 activity#za.co.bubiit.ArtsAndI.activity.WelcomeActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:32:9-35:92
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:32:9-35:92
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:34:13-45
 	android:parentActivityName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:35:13-89
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:35:13-89
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:33:13-74
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:33:13-74
 activity#za.co.bubiit.ArtsAndI.activity.TabsActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:36:9-39:91
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:36:9-39:91
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:38:13-45
 	android:parentActivityName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:39:13-88
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:39:13-88
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:37:13-71
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:37:13-71
 activity#za.co.bubiit.ArtsAndI.activity.MediaMore
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:40:9-44:51
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:40:9-44:51
 	android:screenOrientation
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:44:13-49
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:42:13-45
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:42:13-45
 	android:parentActivityName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:43:13-85
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:43:13-85
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:41:13-68
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:41:13-68
 activity#za.co.bubiit.ArtsAndI.activity.MediaActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:45:9-48:88
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:45:9-48:88
 	android:label
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:47:13-45
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:47:13-45
 	android:parentActivityName
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:48:13-85
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:48:13-85
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:46:13-72
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:46:13-72
 activity#za.co.bubiit.ArtsAndI.activity.LoginActivity
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:49:9-56:20
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:49:9-56:20
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:49:19-78
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:49:19-78
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:51:13-55:29
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:52:17-69
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:52:25-66
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:54:17-77
+ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from E:\Arts&I\app\src\main\AndroidManifest.xml:54:27-74
+		ADDED from C:\Users\9906774w\Documents\ArtsAndI\app\src\main\AndroidManifest.xml:54:27-74

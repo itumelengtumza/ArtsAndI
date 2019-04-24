@@ -110,10 +110,12 @@ public class TourismFragment extends Fragment {
         this.recyclerView.setHasFixedSize(true);
         this.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         this.recyclerView.setItemAnimator(new DefaultItemAnimator());
-        this.dbConn.retrieveFromDB(ServerConnect.event, -1);
+        // check for internet and run
+
+        /*this.dbConn.retrieveFromDB(ServerConnect.event, -1);
         this.dbConn.retrieveFromDB(ServerConnect.notice, -1);
         this.dbConn.retrieveFromDB(ServerConnect.annoucement, -1);
-        this.dbConn.retrieveFromDB(ServerConnect.media, -1);
+        this.dbConn.retrieveFromDB(ServerConnect.media, -1);*/
         // *********************neeed to add this.dbConn.retrieveFromDB(ServerConnect.tourism, -1); *************************//
         this.run = new C02721();
         getActivity().runOnUiThread(this.run);
